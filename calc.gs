@@ -2,7 +2,7 @@
 function get_name_and_score() {
   const ss = SpreadsheetApp.getActiveSpreadsheet();
   const sheet = ss.getSheetByName('当日成績');
-  const rank_uma = [50, 10, -10, -30]; // 順位ウマ
+  const rank_uma = [50, 10, -10, -50]; // 順位ウマ
   
   let registration_list = sheet.getRange('A3:C6').getValues();
 
